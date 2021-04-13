@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+
+/* menu */
+.menu {
+  background: #be3144;
+  overflow: hidden;
+  vertical-align: middle;
+  position: fixed;
+  width: 100%;
+}
+
+.menu_logo {
+  display: inline-block;
+  color: white;
+  padding: 20px 70px 20px 70px;
+}
+
+.menu ul {
+  float: right;
+}
+
+.menu li {
+  float: left;
+  padding: 20px 50px 20px 50px;
+  list-style-type:none;
+}
+
+.menu a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu a:hover {
+  font-size: 30px;
+}
+
+@media (max-width: 900px) {
+  .menu {
+    display: none;
+  }
+}
+
+
+/* about */
+
+.structur {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.about {
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.about h1 {
+  padding: 50px;
+  font-size: 60px;
+  color: white;
+}
+
+.about h2 {
+  padding: 30px;
+  font-size: 40px;
+  color: #be3144;
+}
+
+@media (max-width: 900px) {
+  .about h1  {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+  }
+
+  .about h2 {
+    padding: 10px;
+    font-size: 20px;
+    color: #be3144;
+  }
+}
+
+/* work */
+
+.work {
+  background: #45567d;
+}
+
+.work h2 {
+  font-size: 40px;
+  padding: 20px;
+  color: white;
+}
+
+.box_content {
+  width: 100%;
+  height: 400px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  margin-top: 30px;
+}
+
+.box {
+  margin: 0px 20px 0px 20px;
+  display: inline-block;
+  width: 380px;
+  height: 370px;
+  background: #be3144;
+}
+
+.box_title {
+  background-color: #3a3d40;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.box img {
+  width: 70%;
+  display: block;
+  margin: 30px auto;
+}
+
+@media (max-width: 900px) {
+  .work h2 {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .box {
+    width: 280px;
+    height: 270px;
+  }
+
+  .box img {
+    margin: 10px auto;
+  }
+}
+
+/* contact */
+
+.contact {
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.contact h1 {
+  font-size: 40px;
+  padding: 20px;
+  color: white;
+}
+
+.contact_icon a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 10;
+}
+
+.contact_icon svg {
+  margin-left: 50px;
+}
+
+
+@media (max-width: 900px) {
+
+  .contact h1 {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+  }
+
+  .contact_icon a {
+    display: block;
+    font-size: 0;
+  }
+
+  .contact_icon svg {
+    margin: 10px 0px 10px 0px;
+    display: block;
+  }
+
+
+
+
+
+
+
+}
